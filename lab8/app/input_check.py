@@ -1,8 +1,8 @@
 import sentry_sdk
 
-# Ініціалізація Sentry (поки заглушка)
+
 sentry_sdk.init(
-    dsn="https://5de81265b92e70eafe6aabe8afe3673c@o4511270204997632.ingest.de.sentry.io/4511270206963792",  # сюди вставиш свій ключ
+    dsn="https://5de81265b92e70eafe6aabe8afe3673c@o4511270204997632.ingest.de.sentry.io/4511270206963792",  
     traces_sample_rate=1.0
 )
 
